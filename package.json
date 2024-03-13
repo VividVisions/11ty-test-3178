@@ -1,0 +1,18 @@
+{
+  "name": "11ty-test-3178",
+  "version": "1.0.0",
+  "description": "Test case for Eleventy issue #3178.",
+  "type": "module",
+  "scripts": {
+    "serve-bsync": "npx @11ty/eleventy --config=browsersync.eleventy.config.js --serve",
+    "serve-custom": "npx @11ty/eleventy --config=custom.eleventy.config.js --serve"
+  },
+  "keywords": [],
+  "author": "Walter Krivanek",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0-alpha.5",
+    "@11ty/eleventy-server-browsersync": "^1.0.2",
+    "custom-server": "./lib/custom-server"
+  }
+}
